@@ -20,7 +20,7 @@ jobs:
         run: sudo apt update && sudo apt install -y gcc
 
       - name: Compile C program
-        run: gcc oneArraysum.c -o oneArraysum
+        run: gcc 2darraysum1.c -o 2darraysum1
 
       - name: Run C program
-        run: ./oneArraysum
+        run: ./2darraysum1
